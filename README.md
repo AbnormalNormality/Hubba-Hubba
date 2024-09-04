@@ -95,4 +95,4 @@ This information only applies to those using the Python code. You can ignore thi
 
 Enjoy using Hubba Hubba to streamline your file access!
 
-###### Thank you to ChatGPT for the README
+<sub>**This README was made in support with ChatGPT**</sub>

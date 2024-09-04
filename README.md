@@ -52,6 +52,7 @@ def load_hub(files):
     main.bind("<FocusOut>", lambda _: main.destroy())
     main.overrideredirect(True)
     main.attributes("-topmost", True)
+    main.focus_force()
 
     main.configure(background="white")
     main.attributes("-transparentcolor", "white")

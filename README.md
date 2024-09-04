@@ -51,6 +51,7 @@ def load_hub(files):
     main = Tk()
     main.bind("<FocusOut>", lambda _: main.destroy())
     main.overrideredirect(True)
+    main.attributes("-topmost", True)
 
     main.configure(background="white")
     main.attributes("-transparentcolor", "white")
